@@ -31,3 +31,14 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# Ignore all .DS_Store files (Mac system files)
+.DS_Store
+src/.DS_Store
+src/main/.DS_Store
+
+# Ignore Maven wrapper files if you want (optional)
+.mvn/
+mvnw
+mvnw.cmd
